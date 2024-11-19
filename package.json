@@ -1,6 +1,6 @@
 {
   "name": "44c6-logger",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "main": "dist/index.js",
   "scripts": {
     "test": "jest",
@@ -21,7 +21,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/DvinAvanesian/dd-logger.git"
+    "url": "https://github.com/DvinAvanesian/44c6-logger.git"
   },
   "dependencies": {
     "mongoose": "^8.8.1",
