@@ -1,0 +1,36 @@
+{
+  "name": "44c6-logger",
+  "version": "1.0.5",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc --build"
+  },
+  "types": "dist/types/index.d.ts",
+  "keywords": [],
+  "author": "Dvin Avanesian",
+  "license": "MIT",
+  "description": "A logging system working with Winston and MongoDB for storing logs.",
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "@types/lodash": "^4.17.13",
+    "jest": "^29.7.0",
+    "lodash": "^4.17.21",
+    "ts-jest": "^29.2.5",
+    "typescript": "^5.6.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DvinAvanesian/dd-logger.git"
+  },
+  "dependencies": {
+    "mongoose": "^8.8.1",
+    "winston": "^3.17.0",
+    "winston-daily-rotate-file": "^5.0.0"
+  },
+  "files": [
+    "dist/**/*",
+    "README.md",
+    "package.json"
+  ]
+}
